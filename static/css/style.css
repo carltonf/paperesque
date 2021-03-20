@@ -2,6 +2,12 @@ body {
   -webkit-font-smoothings: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+
+  background-color: #fffdf7;
+
+  font-family: "Ubuntu","PT Serif",Georgia,"Times New Roman",serif;
+  font-size: 1.25em;
+  line-height: 1.8;
 }
 
 code {
@@ -52,7 +58,6 @@ h1#title {
 }
 
 body {
-  font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
 }
 
 .content-container {
@@ -72,7 +77,12 @@ body {
   background-color: white;
 }
 
-@media(min-width: 720px) {
+/*
+ * Changed from 720px to 1260px, the latter of which is the min width for the
+ * footnote to show up as marginnote.
+ * ref: themes/paperesque/js/floatingFootnotes.js
+ */
+@media(min-width: 1260px) {
   /* Make everything 10% smaller! */
   html {
     font-size: 14.4px;
@@ -83,17 +93,19 @@ body {
     Images are scaled in the fitfigure shortcode with an assumption that the
     page is 652px wide. If you change this value, remeasure and change the value
     there too. */
-    width: 45rem;
     padding-left: 2em;
     padding-right: 2em;
-    margin: 0 auto;
+    /* width: 45rem; */
+    /* leaving blank on the right for sidenotes on smaller screen */
+    margin: 0 30% 0 1em;
   }
 
   .content-container-narrow-pad {
     padding-left: 0.5em;
     padding-right: 0.5em;
-    width: 45rem;
-    margin: 0 auto;
+    /* width: 45rem; */
+    /* leaving 25% on the right for sidenotes on smaller screen */
+    margin: 0 25% 0 1em;
   }
 
   .bottom-links {
@@ -180,8 +192,19 @@ nav a, nav a:hover, nav a:visited {
   margin-top: 2em;
 }
 
-.article-body h2,.article-body h3 {
-  margin-top: 2em;
+.article-body h1 {
+  font-size: 1.8em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+.article-body h2 {
+  font-size: 1.5em;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+}
+.article-body h3 {
+  font-size: 1.3em;
+  margin-top: 1em;
   margin-bottom: 0.5em;
 }
 
@@ -248,7 +271,6 @@ hr {
 }
 
 body {
-  background-color: #fffdf7;
 }
 
 figcaption {
