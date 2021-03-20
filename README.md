@@ -1,3 +1,6 @@
+**NOTE** The master is rebased upon the mainline branch of the original with
+my sytle tweaks.
+
 # Paperesque
 
 A lightweight [Hugo](https://gohugo.io) theme with a couple of neat tricks.
