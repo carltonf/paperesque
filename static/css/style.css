@@ -114,12 +114,12 @@ body {
   }
 
   .look-sheet {
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     box-shadow: 0 5px 5px -5px #777777;
     margin-top: 1em;
     margin-bottom: 1em;
     min-height: 0px;
-    background-color: white;
+    /* background-color: white; */
   }
 
   .look-sheet-bkg {
@@ -412,9 +412,9 @@ p {
   -ms-hyphens: auto;
 }
 
-.look-sheet-bkg.draft, .list-of-titles li.draft a:hover {
+/* .look-sheet-bkg.draft, .list-of-titles li.draft a:hover {
   background: repeating-linear-gradient(     135deg,   white,   white 10px,   #ffd4a3 12px,   #ffd4a3 12px );
-}
+} */
 
 .list-of-titles li.draft {
   background: repeating-linear-gradient(     135deg,    #fffdf7,   #fffdf7 10px,   #ffd4a3 12px,   #ffd4a3 12px );
