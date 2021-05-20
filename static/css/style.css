@@ -6,8 +6,8 @@ body {
   background-color: #fffdf7;
 
   font-family: "Ubuntu","PT Serif",Georgia,"Times New Roman",serif;
-  font-size: 1.25em;
-  line-height: 1.8;
+  font-size: 1.4em;
+  line-height: 1.6em;
 }
 
 code {
@@ -46,6 +46,7 @@ code {
   font-family: monocode, monospace;
   -webkit-font-smoothings: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 0.8em;
 }
 
 h1,h2,h3,h4,h5,h6 {
