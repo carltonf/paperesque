@@ -207,6 +207,10 @@ nav a, nav a:hover, nav a:visited {
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
+/* .article-body .article-tombstone {
+  direction: rtl;
+  font-size: 2.5em;
+} */
 
 kbd {
   background-color: #333;
